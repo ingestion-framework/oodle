@@ -5,7 +5,7 @@
 
 	<groupId>YOUR_GROUP</groupId>
 	<artifactId>OODLE</artifactId>
-	<version>SNAPSHOT</version>
+	<version>1.0.5</version>
 	<name>OODLE</name>
 	<packaging>pom</packaging>
 	<description>OODLE ODT Project</description>
