@@ -6,9 +6,9 @@
     <contextParameter comment="" name="InputParamFileName" prompt="InputParamFileName?" promptNeeded="false" type="id_String" value="/home/ec2-user/oodle_input_data.txt"/>
     <contextParameter comment="" name="ConfigParamFileName" prompt="ConfigParamFileName?" promptNeeded="false" type="id_String" value="/home/ec2-user/oodle_config.txt"/>
     <contextParameter comment="" name="CredentialBucket" prompt="CredentialBucket?" promptNeeded="false" repositoryContextId="_XElGYJEbEee8WO8wvmXhvw" type="id_String" value="&quot;oodle-test&quot;"/>
-    <contextParameter comment="" name="S3_Access_Key" prompt="S3_Access_Key?" promptNeeded="false" repositoryContextId="_XElGYJEbEee8WO8wvmXhvw" type="id_String" value="AKIAI6TURLVXBI3T35PQ"/>
+    <contextParameter comment="" name="S3_Access_Key" prompt="S3_Access_Key?" promptNeeded="false" repositoryContextId="_XElGYJEbEee8WO8wvmXhvw" type="id_String" value=""/>
     <contextParameter comment="" name="S3_File_Name" prompt="S3_File_Name?" promptNeeded="false" repositoryContextId="_XElGYJEbEee8WO8wvmXhvw" type="id_String" value=""/>
-    <contextParameter comment="" name="S3_Secret_Key" prompt="S3_Secret_Key?" promptNeeded="false" repositoryContextId="_XElGYJEbEee8WO8wvmXhvw" type="id_Password" value="aLUsIkYMx5aBAc4XSjKXdbo+pFnWN5f3EuaNRbtsv0qFE2kYGQrxU+g2Evl4H4oK"/>
+    <contextParameter comment="" name="S3_Secret_Key" prompt="S3_Secret_Key?" promptNeeded="false" repositoryContextId="_XElGYJEbEee8WO8wvmXhvw" type="id_Password" value=""/>
     <contextParameter comment="" name="S3_Source_Bucket" prompt="S3_Source_Bucket?" promptNeeded="false" repositoryContextId="_XElGYJEbEee8WO8wvmXhvw" type="id_String" value=""/>
     <contextParameter comment="" name="S3_Source_Folder_Name" prompt="S3_Source_Folder_Name?" promptNeeded="false" repositoryContextId="_XElGYJEbEee8WO8wvmXhvw" type="id_String" value=""/>
     <contextParameter comment="" name="S3_Target_Bucket" prompt="S3_Target_Bucket?" promptNeeded="false" repositoryContextId="_XElGYJEbEee8WO8wvmXhvw" type="id_String" value=""/>
