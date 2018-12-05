@@ -22,7 +22,7 @@ node {
         sh """pwd
           ls -ltr
           cd "${WORKSPACE}/OODLE"
-          mvn package -s settings.xml -f pom.xml -Dcommandline.workspace="${WORKSPACE}/OODLE/" -Dcommandline.host=${talend_cmd_host} -Dcommandline.port=8002 -Dcommandline.user=${talend_cmd_user} -DprojectsTargetDirectory="${WORKSPACE}/OODLE/target" -DitemFilter=(type=process_mr)and(label=job_ProcessWeatherData)
+          mvn package -s settings.xml -f pom.xml -Dcommandline.workspace="${WORKSPACE}/OODLE/" -Dcommandline.host=${talend_cmd_host} -Dcommandline.port=8002 -Dcommandline.user=${talend_cmd_user} -DprojectsTargetDirectory="${WORKSPACE}/OODLE/target" -DitemFilter=(type=process)and(label=Job_1_Test_Demo)
           """
         sh 'sleep 10s'
     }
