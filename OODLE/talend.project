@@ -946,4 +946,5 @@
   <TalendProperties:User xmi:id="_GppGol8vEeiw-5gMKp4c_Q" login="admin@company.com" firstName="admin" lastName="admin" type="MDM" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_TVrWYWjdEeip27n1fndR4g" login="amar@company.com" firstName="amar" lastName="amar" type="MDM" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_eQA_0GsIEeiK7dJZdlfpfQ" login="oodle@company.com" firstName="oodle" lastName="oodle" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_idMQsPg7Eei-Hp2zsLYeww" login="santosh.bhakat@cognizant.com" firstName="Santosh" lastName="Bhakat" type="MDM" additionnalData="{}"/>
 </xmi:XMI>
