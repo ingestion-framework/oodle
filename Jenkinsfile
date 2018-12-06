@@ -2,6 +2,7 @@ def jupiter_host='34.200.55.25'
 def talend_cmd_host='34.237.156.239'
 def talend_cmd_user='admin@company.com'
 node {
+    deleteDir()
     stage ('Code Checkout') {
         checkout scm
         echo "Listing the files in the current dir"
@@ -22,7 +23,7 @@ node {
         sh """pwd
           ls -ltr
           cd "${WORKSPACE}/OODLE"
-          mvn package -s settings.xml -f pom.xml -Dcommandline.workspace="${WORKSPACE}/OODLE/" -Dcommandline.host=${talend_cmd_host} -Dcommandline.port=8002 -Dcommandline.user=${talend_cmd_user} -DprojectsTargetDirectory="${WORKSPACE}/OODLE/target" -DitemFilter=(type=process)and(label=Job_1_Test_Demo)
+          mvn package -s settings.xml -f ${WORKSPACE}/OODLE/projectSources/pom.xml -Dcommandline.workspace="${WORKSPACE}/OODLE/" -Dcommandline.host=${talend_cmd_host} -Dcommandline.port=8002 -Dcommandline.user=${talend_cmd_user} -DprojectsTargetDirectory="${WORKSPACE}/OODLE/target" -DitemFilter=label=Job_1_Test_Demo
           """
         sh 'sleep 10s'
     }
