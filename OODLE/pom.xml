@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>YOUR_GROUP</groupId>
+	<groupId>ingestion_framework</groupId>
 	<artifactId>OODLE</artifactId>
 	<version>1.0.5</version>
 	<name>OODLE</name>
@@ -10,7 +10,6 @@
 	<description>OODLE ODT Project</description>
 
 	<build>
-		<defaultGoal>package</defaultGoal>
 		<finalName>${project.artifactId}</finalName>
 
 		<plugins>
@@ -22,15 +21,6 @@
 						<descriptor>assembly.xml</descriptor>
 					</descriptors>
 				</configuration>
-				<executions>
-					<execution>
-						<id>make-assembly</id>
-						<phase>package</phase>
-						<goals>
-							<goal>single</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 	</build>
